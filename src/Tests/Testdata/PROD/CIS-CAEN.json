@@ -1,0 +1,97 @@
+{
+	"Banner": "CIS-CAEN",
+	"ProductUrl": "",
+  "SearchKeyword": "heel",
+  "StyleCode": "13205089",
+  "PromoCode": "QACISCA",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "qaautomationtest@gmail.com",
+		"Password": "Aldo1234",
+    "LogoutMessage": "Logged out",
+    "SignUpMessage": "Thanks for signing up."
+	},
+	"Shipping": {
+    "Email": "aldo@canada.com",
+		"Method": "Standard",
+		"Firstname": "automation",
+		"Lastname": "qa",
+		"Street": "2300",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "H3H1J4",
+		"Phonenumber": "5142365689",
+		"Extension": "",
+    "Invalidpostalcode": "012345",
+    "Standardcharges": 6.00
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "123"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2321"
+			}
+		],
+	"Paypal": {
+			"username": "customerone@hotmail.ca",
+			"password": "aldo1aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		}
+	},
+  "Categories": ["Women", "Men"],
+  "CategoriesLevel1": ["Footwear", "Handbags", "Accessories", "Sale"],
+  "FootwearCategoriesLevel2": ["All Footwear", "Sneakers", "Sandals"],
+    "PageTitle":
+  {
+    "HomePage": "Globo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Checkout",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Search"
+  },
+  "Urls":{
+		"Appointments": "shipping-delivery",
+		"StoreLocator":"store-locator",
+		"GiftCards":"gift-card",
+		"TrackOrder":"track-order",
+		"ContactUs":"appointments",
+		"Returns": "returns",
+		"CustomerService":"customer-service",
+		"AboutUs":"aldogroup",
+		"Opportunities":"career-opportunities",
+		"AldoGroup":"responsibility",
+    "KindAf":"kind-af"
+	},
+	"Links":{
+		"CustomerService":"Help Center",
+		"Appointments": "Delivery",
+		"StoreLocator":"Store Locator",
+		"GiftCards":"Gift Cards",
+		"TrackOrder":"Track My Order",
+		"ContactUs":"Store Appointments",
+		"Returns": "Return Policy",
+		"AboutUs":"About Us",
+		"Opportunities":"Careers",
+		"AldoGroup":"Responsibility",
+		"KindAf":"Kind AF"
+	}
+}

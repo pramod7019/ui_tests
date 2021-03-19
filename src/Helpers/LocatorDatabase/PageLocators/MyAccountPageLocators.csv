@@ -1,0 +1,9 @@
+ElementName,Common,Aldo,CIS,Globo
+signOutButton,//*[@id='logout'],//*[@aria-label='Sidebar']//*[@id='logout']
+overViewLink,//*[@class="c-sidebar-link-list-item__link u-text-thin c-sidebar-link-list-item__link--is-selected"]
+pageHeading,//*[@class="c-breadcrumb-header__wrapper"]
+coupon,//*[@class="c-offer-card__link"],,,
+showPromoCode,"//*[contains(@class,'c-offer-card__show-btn')]",,,
+redeemOfferButton,//*[@class="u-btn c-offer-card__link"]
+myInfoLink,"//*[@class='c-sidebar-link-list-item']//a[contains(@href,'profile')]",,,
+paymentLink,"//*[@class='c-sidebar-link-list-item']//span[text()='Payment']",,,

@@ -1,0 +1,65 @@
+{
+	"Banner": "CIS-CAEN",
+	"ProductUrl": "",
+  "SearchKeyword": "heel",
+  "StyleCode": "11239966",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "qaautomationtest@gmail.com",
+		"Password": "Aldo1234",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email": "aldo@canada.com",
+		"Method": "Standard",
+		"Firstname": "automation",
+		"Lastname": "qa",
+		"Street": "2300",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "",
+		"Phonenumber": "5142365689",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2321"
+			}
+		],
+		"Paypal": {
+			"user": "",
+			"password": ""
+		},
+		"Visacheckout": {
+			"user": "",
+			"password": ""
+		}
+	},
+  "Categories": ["Women", "Men"],
+    "PageTitle":
+  {
+    "HomePage": "Globo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Checkout",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Search"
+  }
+}

@@ -1,0 +1,95 @@
+{
+	"Banner": "GLOBO-CAEN",
+	"ProductUrl": "",
+  "SearchKeyword": "boot",
+  "StyleCode": "13121827",
+  "PromoCode": "QAGLOBOCA",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "qaautomationtest@gmail.com",
+		"Password": "Aldo1234",
+    "LogoutMessage": "Logged out",
+    "SignUpMessage": "Thanks for signing up."
+	},
+	"Shipping": {
+    "Email": "aldo@canada.com",
+		"Method": "Standard",
+		"Firstname": "automation",
+		"Lastname": "qa",
+		"Street": "2300",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "H3H1J4",
+		"Phonenumber": "5142365689",
+		"Extension": "",
+    "Invalidpostalcode": "012345",
+    "Standardcharges": 0
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "123"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "231"
+			}
+		],
+	"Paypal": {
+			"username": "customerone@hotmail.ca",
+			"password": "aldo1aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		}
+	},
+  "Categories": ["Women", "Men"],
+  "PageTitle":
+  {
+    "HomePage": "Globo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Checkout",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Search"
+  },
+    "Urls":{
+		"Appointments": "shipping-delivery",
+		"StoreLocator":"store-locator",
+		"GiftCards":"rewards",
+		"TrackOrder":"track-order",
+		"ContactUs":"contact-us",
+		"Returns": "returns",
+		"CustomerService":"customer-service",
+		"AboutUs":"about-us",
+		"Opportunities":"career-opportunities",
+		"AldoGroup":"aldogroup",
+    "KindAf":"kind-af"
+	},
+	"Links":{
+		"CustomerService":"Help Center",
+		"Appointments": "Delivery",
+		"StoreLocator":"Store Locator",
+		"GiftCards":"GLOBO Rewards",
+		"TrackOrder":"Track My Order",
+		"ContactUs":"Contact Us",
+		"Returns": "Return Policy",
+		"AboutUs":"About Us",
+		"Opportunities":"Careers",
+		"AldoGroup":"Our Cause",
+		"KindAf":"Kind AF"
+	}
+}

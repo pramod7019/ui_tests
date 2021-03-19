@@ -1,0 +1,35 @@
+ElementName,Common,Aldo,CIS,Globo
+sizes,//*[@id='PdpProductSizeSelectorOpts']//*[@class='c-product-option-list__list-item o-option-rectangle o-option-rectangle--size']
+sizeSelectedLabel,//*[@id='PdpProductSizeSelectorOptsLabel']//*[@class='c-product-option__label-current-selection']
+addToBagButton,"//*[@class='c-purchase-buttons']//*[contains(@class,'button--add-to-bag')]"
+selectSizeWarningButton,//*[@aria-label="Add to bag - Select a size"]
+productName,//*[@class='c-heading c-buy-module__product-title']
+colourSwatches,//*[@class='c-product-style-list__option o-style-option__option o-style-option__option--is-available']
+colourSelectedLabel,//*[@id='PdpProductColorSelectorOptsLabel']//*[@class='c-product-option__label-current-selection']
+reassuranceLinks,//*[@id='c-reassurance-links']//*[@class='c-reassurance-links__item']
+priceBlock,"//*[contains(@class, 'c-product-price u-text-thin c-buy-module__formatted-price')]//*[contains(@class, 'c-product-price__formatted-price')]"
+sizeChartButton,//*[@class="c-product-option__button"]
+globoFindInStoreButton,//*[@class="u-btn u-btn--regular c-purchase-buttons__button c-purchase-buttons__button--find-in-store"]
+breadCrumbLinks,//*[@class="c-breadcrumb__item c-breadcrumb--product-detail__item"]
+favouritesButtonUnSelected,//*[@class="c-icon c-favourites-btn__icon c-favourites-btn__icon--line"]
+favouritesButtonSelected,//*[@class="c-icon c-favourites-btn__icon c-favourites-btn__icon--solid"]
+productCarouselImages,//*[@class="c-carousel__indicator"]
+zoomButton,//*[@class="u-btn c-carousel-product-overview__zoom"]
+imageCloseButton,//*[@class="u-btn c-carousel-modal__close pswp__button pswp__button--close"]
+imageFullScreenButton,//*[@class="u-btn c-carousel-modal__full-screen u-hide@sm pswp__button pswp__button--fs"]
+nextImageArrowButton,//*[@aria-label="Next feature"]
+previousImageArrowButton,//*[@aria-label="Previous feature"]
+productInfoPanel,//*[@class="c-product-description c-product-description--has-3-panels"]
+globoAccordianIcon,//*[@class="c-icon c-accordion-item__icon"]
+sizeChartOverLayBox,//*[@class="c-modal__content o-overlay__initial-focus o-grid o-grid--with-spacing"]
+sizeChartOverLayCloseButton,//*[@data-qa-id="overlay-close-button"]
+popupCloseButton,//*[@class='c-icon c-modal__icon-close']
+menwomentabs,//ul[@class="c-tablist"]/li
+location,//*[@id='location']
+storeresults,//*[@id='location-results-0']
+cmap,//*[@class="c-map"]
+outstock,//*[@class="u-btn u-btn--highlight c-store-locator-results__out-of-stock-btn"]
+thumbnails,ul.c-carousel-product-overview--thumbnail-carousel>li
+selectedThumbnail,div.c-carousel__scroller-wrapper>.c-carousel__scroller-active-REPLACE_TEXT
+carouselIndicators,//*[@class="c-carousel-modal__indicator-ctrls"]
+paypalCreditMessage,//*[@class="c-paypal-credit-message"]

@@ -1,0 +1,13 @@
+ElementName,Common,Aldo,CIS,Globo
+orderNumberInputLabel,//*[@name="orderNumber"]
+postalCodeInputLabel,//*[@name="zipCode"]
+trackOrder,//*[@class="c-order-lookup__btn-wrapper"]
+orderNumberToolTip,//*[@class="c-icon c-form-field-tooltip__icon"],,,//*[@class="c-form-field-tooltip__button"]
+viewOrderDetails,//*[@title="View order details"]
+orderLoadMore,//*[@class="u-link u-link--underlined c-order-history-item__load-more"],,//* [@class="u-btn u-btn--tertiary c-load-more__button"],//* [@class="u-btn u-btn--tertiary c-load-more__button"]
+returnClickHere,//*[@class="c-my-account-order-search__description-content"]//*[@class="u-link u-link--underlined"]
+orderHistoryEmpty,//*[@class="c-my-account-order-history-empty"]
+myHistory,"//*[@role='navigation']//a[contains(@href,'history')]"
+orderNumber,//*[@class="c-product-list-item__order-id"]
+orderDetails,//*[@class="c-order-history-item-header"]
+

@@ -1,0 +1,93 @@
+{
+	"Banner": "ALDO-CAFR",
+	"ProductUrl": "",
+  "SearchKeyword": "talon",
+  "StyleCode": "12648320",
+  "PromoCode": "QAALDOCA",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email": "aldo@canada.com",
+		"Method": "Standard",
+		"Firstname": "fn",
+		"Lastname": "ln",
+		"Street": "562",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "",
+		"Phonenumber": "5621234569",
+		"Extension": "",
+    "Invalidpostalcode": "012345"
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2322"
+			}
+		],
+		"Paypal": {
+			"username": "aldo.ecepp.ca@gmail.com",
+			"password": "Aldo1Aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		}
+	},
+  "Categories": ["Femmes", "Hommes"],
+    "PageTitle":
+  {
+    "HomePage": "Aldo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Passer à la caisse",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Rechercher"
+  },
+  "Urls":{
+		"Appointments": "appointments",
+		"StoreLocator":"store-locator",
+		"Returns":"service-clientele",
+		"TrackOrder":"retours",
+		"ContactUs":"contactez-nous",
+		"GiftCards": "gift_card-non-couleur",
+		"CustomerService":"service-clientele",
+		"AboutUs":"a-propos",
+		"Opportunities":"possibilites-de-carriere",
+		"AldoGroup":"aldogroup",
+    "KindAf":"kind-af"
+	},
+	"Links":{
+		"Appointments": "Rendez-vous en magasin",
+		"StoreLocator":"Trouver un magasin",
+		"Returns":"Politique de retour",
+		"TrackOrder":"Politique de retour",
+		"ContactUs":"Nous Joindre",
+		"GiftCards": "Cartes-cadeaux",
+		"CustomerService":"Aper",
+		"AboutUs":"A propos",
+		"Opportunities":"Carri",
+		"AldoGroup":"Le groupe ALDO",
+		"KindAf":"Kind AF"
+	}
+}

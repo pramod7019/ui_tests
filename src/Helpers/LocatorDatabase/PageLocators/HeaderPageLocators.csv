@@ -1,0 +1,33 @@
+ElementName,Common,Aldo,CIS,Globo
+myAccountButton,//*[@data-qa-id="medium-header-login-link login-button"],//*[@class="c-login-signup__sign-in-button"],//*[@class="c-navigation__btn c-navigation__icon-user c-navigation__icon-btn--inline c-navigation__user-btn"]//*[@type="button"]
+searchButton,//*[@class="u-btn c-navigation__btn c-navigation__search-btn u-btn--has-custom-focus"],//*[@class="u-btn c-navigation__btn c-navigation__btn-cart c-navigation__btn-search"],,//div[@class="c-header__wrapper"]//button[@class="u-btn c-navigation__icon-search"]
+favouritesIcon,//a[@data-qa-id='medium-favourites-counter-link']
+mobileFavouritesIcon,//a[@data-qa-id="small-favourites-counter-link"],"//a[contains(@href,'/favourites')]"
+cartButton,//button[@data-qa-id='medium-shopping-bag']
+mobileCartButton,//button[@data-qa-id='small-shopping-bag']
+cartItemLabel,//span[@data-qa-id='medium-shopping-bag-label'],
+favouritesLabel,//span[@data-qa-id='medium-favourites-counter-label'],
+countryDropDown,//div[@class='c-navigation__btn']//button[@class='u-btn c-popover__title'],
+languageLink,,//*[@class="c-footer c-footer--loyalty"]//*[@class="c-region-selector__language-item-wrapper"],//*[@class="c-footer"]//*[@class="c-region-selector__language-item-wrapper"],//nav[@aria-label='Utility']//*[@class="u-link u-link--underlined c-region-selector__language-link"]
+mobileLanguageLink,//*[@class="u-link u-link--underlined c-region-selector__language-item"]
+learnMoreLink,//*[@class="c-header-promotion u-hide@sm"]//*[@class="u-link u-link--underlined"],
+promoBanner,message-bar,
+promoBannerCloseButton,//*[@data-qa-id=message-bar-box-close],
+navigationCategories,//*[@class='c-sticky-header__link' or @class ='c-header__contents-bottom']//*[@class='c-navigation--primary__list-item'],
+navigationByCategory,"//*[contains (@aria-labelledby,'regular-menu')]//*[contains(@href,'/{}/footwear')]//*[text()='Footwear']","//*[contains (@aria-labelledby,'regular-menu')]//*[contains(@href,'/{}/chaussures')]//*[text()='Chaussures']"
+userAccountButton,//*[@class="c-navigation c-navigation--utility"]//*[@class="c-navigation__btn c-navigation__btn-account c-navigation__btn-account-tier"],//*[@class="c-navigation c-navigation--cart"]//*[@href="/ca/en/account"],//*[@class="c-top-bar__navigation-links__container"]//*[@class="c-navigation__btn c-navigation__btn-account"],//*[@class="c-navigation c-navigation--cart"]//a[@href="/us/en_US/account"]
+mobileUserAccountButton,//*[@class="c-navigation__btn c-navigation__btn-account"][@href="/ca/en/account"],//*[@class="c-navigation__btn c-navigation__btn-account"][@href="/us/en_US/account"]
+mobileMainNav,//*[@class="u-btn c-navigation__icon-hamburger"],,//*[@class="u-btn c-navigation__icon-menu"]
+mobileMyAccountButton,//*[@class='c-navigation__item c-navigation__item--secondary']//*[@class='u-btn c-navigation__btn c-navigation__btn-account']|//*[@data-qa-id='login-button'],
+globoStoreLocatorButton,,,,"//span[contains(text(), 'Store locator')]"
+globoRewardsButton,,,,"//span[contains(text(), 'Rewards')]"
+globoTrackOrderButton,,,,"//*[@aria-label='Utility']//span[contains(text(), 'Track order')]"
+searchField,//*[@id="searchHeader"]
+mobileSearchField,//*[@id="searchHeader-small"],,//*[@id="searchHeader"]
+searchSuggestion,//*[@data-qa-id='form-autocomplete-result-item-button']
+promotionalMessage,//*[@class="c-header-promotion u-hide@sm"],//*[@class="c-single-promotion c-header-promotion u-hide@sm"],//*[@class="c-header-promotion__message"]
+headerMessage,//*[@class="c-markdown c-message-bar__description"]
+wishListItemsLabel,//*[@class="c-favourites-counter__btn c-favourites-counter__btn--has-items c-navigation__btn c-navigation__btn-cart"]
+mobileMenuCategory,//*[@id="small-menu-caen{}"],//*[@id="small-menu-usenus{}"]
+mobileMenuLevel1,//button[@aria-label="{}"]
+mobileMenuLevel2,"//span[contains(text(),'{}')]"

@@ -1,0 +1,99 @@
+{
+	"Banner": "ALDO-USEN",
+	"ProductUrl": "",
+  "SearchKeyword": "heel",
+  "StyleCode": "13102784",
+  "PromoCode": "QAALDOUS",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "qaautomationtest@gmail.com",
+		"Password": "Aldo1234",
+    "LogoutMessage": "Logged out",
+    "SignUpMessage": "Thanks for signing up."
+	},
+	"Shipping": {
+    "Email": "aldo@us.com",
+		"Method": "Standard",
+		"Firstname": "JohnnyUS",
+		"Lastname": "Walker",
+		"Street": "224",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "27703",
+		"Phonenumber": "87456898956",
+		"Extension": "",
+    "Invalidpostalcode": "012345",
+    "Standardcharges": "Free"
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2322"
+			}
+		],
+		"Paypal": {
+			"username": "aldo.ecepp.ca@gmail.com",
+			"password": "Aldo1Aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		},
+    "PaypalCredit": {
+      "username": "customerfive@hotmail.ca",
+      "password": "aldo1aldo"
+    }
+	},
+  "Categories": ["Women", "Men"],
+    "PageTitle":
+  {
+    "HomePage": "Aldo",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Checkout",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Search"
+  },
+  "Urls":{
+		"Appointments": "appointments",
+		"StoreLocator":"store-locator",
+		"GiftCards":"gift-cards",
+		"TrackOrder":"track-order",
+		"ContactUs":"contact-us",
+		"Returns": "returns",
+		"CustomerService":"customer-service",
+		"AboutUs":"about-us",
+		"Opportunities":"career-opportunities",
+		"AldoGroup":"aldogroup",
+		"KindAf":"kind-af"
+	},
+	"Links":{
+		"Appointments": "Store appointment",
+		"StoreLocator":"Store locator",
+		"GiftCards":"Gift card",
+		"TrackOrder":"Track my order",
+		"ContactUs":"Contact us",
+		"Returns": "Return policy",
+		"CustomerService":"Help center",
+		"AboutUs":"About us",
+		"Opportunities":"Careers",
+		"AldoGroup":"ALDO Group",
+		"KindAf":"Kind AF"
+	}
+}

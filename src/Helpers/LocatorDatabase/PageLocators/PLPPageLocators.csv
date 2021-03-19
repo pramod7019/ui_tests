@@ -1,0 +1,23 @@
+ElementName,Common,Aldo,CIS,Globo,mobile
+plpPage,//*[@data-qa-id='product-page']
+plpProducts,//*[@class='c-product-tile__link-product']
+viewAllButton,//*[@class="u-btn u-btn--tertiary c-load-more__button"]
+plpPageHeaderTitle,,//*[@id="ProductLandingHeaderTitle"],//*[@class="c-product-landing-header__heading"],//*[@class="o-product-landing-header__heading"]
+plpCategoryLinkList,,//*[@class="c-product-landing-link-list"],,//*[@class="o-product-landing-link-list"]
+breadcrumbList,//*[@class="c-breadcrumb__list"]
+plpProductCount,//*[@class="c-grid-controls__results-count"],,//*[@class="c-grid-controls__results-count"]
+productTag,//*[@class="c-product-tile__product-special-tag"]
+favouritesButtonUnSelected,//*[@class="u-btn c-favourites-btn"]
+favouritesButtonSelected,//*[@class="c-icon c-favourites-btn__icon c-favourites-btn__icon--solid"]
+productLabels,//*[@class="c-labels"]
+productNames,//*[@class="c-heading c-product-tile-info__item c-product-tile-info__item--name c-product-tile__product-name"],,//*[@class="c-product-tile__product-name"]
+productPrices,//*[@class="c-product-tile-info__item"]
+itemCount,//*[@class="c-grid-controls__results-count"],,//*[@class="c-product-landing-header__result-count"]
+sortDropDown,//*[@id='ProductLandingSortOptionsDropdown']
+popupCloseButton,//*[@class='c-icon c-modal__icon-close']
+filterButton,//*[@data-qa-id="open-filters-button"]
+appliedFilters,//*[@data-qa-grid-control-applied-filter-button]//*[@class="u-btn__content"]
+cisLandingHeader,,,//*[@class="c-product-landing-header__heading"]
+favouritesBtnUnSelected,,"//*[contains(@class,'c-product-grid')]//li//button","//*[contains(@class,'c-product-grid--cis')]//li//button","//*[contains(@class,'c-product-grid--globoshoes')]//li//button"
+favnonAldo,.c-product-grid--globoshoes li button,,,
+loadingButton,//*[@class="u-btn u-btn--tertiary c-btn--is-loading c-load-more__button"]

@@ -1,0 +1,45 @@
+{
+	"chrome_driver_version": "84.0.4147.30",
+	"environment": "UAT",
+	"banners": [
+		"ALDO-CAEN",
+		"CIS-CAEN",
+		"GLOBO-CAEN",
+    "ALDO-USEN",
+		"CIS-USEN"
+	],
+  "aldo_us_banner": [
+    "ALDO-USEN"
+  ],
+	"aldo_banners": [
+		"ALDO-CAEN"
+	],
+	"cis_banners": [
+		"CIS-CAEN"
+	],
+	"globo_banners": [
+		"GLOBO-CAEN"
+	],
+	"aldo_cis_banners": [
+		"ALDO-CAEN",
+		"CIS-CAEN"
+	],
+	"globo_cis_banners": [
+		"GLOBO-CAEN",
+		"CIS-CAEN"
+	],
+	"aldo_globo_banners": [
+		"ALDO-CAEN",
+		"GLOBO-CAEN"
+	],
+	"browser": "chrome",
+	"headless": false,
+	"ios_capabilities": {
+		"ios_version": "13.6",
+		"browser": "safari",
+		"device": "iPhone 8",
+		"resetsim": false,
+		"headless": false
+	},
+	"appium_server": "http://localhost:4723/wd/hub"
+}

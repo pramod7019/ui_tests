@@ -1,0 +1,92 @@
+{
+	"Banner": "CIS-CAFR",
+	"ProductUrl": "",
+  "SearchKeyword": "talon",
+  "StyleCode": "11285171",
+  "PromoCode": "QACISCA",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email": "callitspring@us.com",
+		"Method": "Standard",
+		"Firstname": "fn",
+		"Lastname": "ln",
+		"Street": "2300",
+		"Suite": "",
+		"City": "568",
+		"Postalcode": "",
+		"Phonenumber": "8956234565",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "231"
+			}
+		],
+		"Paypal": {
+			"username": "aldo.ecepp.ca@gmail.com",
+			"password": "Aldo1Aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		}
+	},
+  "Categories": ["Femmes", "Hommes"],
+    "PageTitle":
+  {
+    "HomePage": "Call It Spring Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Passer à la caisse",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Rechercher"
+   },
+  "Urls":{
+		"Appointments": "envoi",
+		"StoreLocator":"store-locator",
+		"GiftCards":"carte-cadeau",
+		"TrackOrder":"suivi-commande",
+		"ContactUs":"rendez-vous",
+		"Returns": "retours",
+		"CustomerService":"service-clientele",
+		"AboutUs":"aldogroup",
+		"Opportunities":"career-opportunities",
+		"AldoGroup":"responsibility",
+    "KindAf":"cest-bon"
+	},
+	"Links":{
+		"CustomerService":"Aper",
+		"Appointments": "et livraison",
+		"StoreLocator":"Magasins Call It Spring",
+		"GiftCards":"Carte-cadeau",
+		"TrackOrder":"Suivi de commande",
+		"ContactUs":"Rendez-vous en magasin",
+		"Returns": "Retours",
+		"AboutUs":"propos",
+		"Opportunities":"Carri",
+		"AldoGroup":"Responsabili",
+		"KindAf":"est bon"
+	}
+}

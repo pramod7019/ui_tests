@@ -1,0 +1,20 @@
+ElementName,Common,Aldo,CIS,Globo
+footerLink,"//li[contains(@class,'c-footer-link-list__item')]/a[contains(text(),'REPLACE_TEXT')]",,,
+appointments,//div[@class='c-content__ctas--buttons']/a,,"//a[contains(@href,'returns')]","//a[contains(@href,'retours')]"
+storeLocator,//div[@class='c-store-locator-form__autocomplete']/button,,//*[@id='findStore'],
+giftCards,//div[@class='c-purchase-buttons']/button,//*[@id='ctl04_txtAccount'],//*[@id='cardNumber-gift-card'],
+trackOrder,zipCode-order-lookup-validation,,,
+contactUs,"//a[contains(@href,'contact-us')]","//a[contains(@href,'join')]",,
+returnPolicy,zipCode-order-lookup,,,
+helpCenter,"//a[contains(@href,'announcement')]","//a[contains(@href,'store')]",,
+aboutUs,//div[@class='c-youtube-player-overlay'],//*[@id='h1_line_02'],//*[@id='h1_line_01'],//*[@class="aldo-home-main-title"]
+careers,//*[@id="articleTop"],,,
+group,//a[@class='logo'],,,
+kindaf,//*[@class='c-icon--title'],,,
+responsibility,//div[@class='header-right-container'],,,
+shipping,//div[@class='c-table__cell-inner'],,,
+popUp,//*[@data-qa-id="overlay-close-button"]
+allCountriesLink,//a[@class="c-region-selector__subtitle"]
+northAmericaLink,"//div[@class='c-accordion-item__button']//span[contains(text(),'North America')]"
+usaLink,//a[@href='/us/en_US']
+

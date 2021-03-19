@@ -1,0 +1,8 @@
+ElementName,Common,Aldo,CIS,Globo
+primaryAddToCart,//*[@class="u-btn u-btn--primary u-btn--has-wide-padding c-favourites-list-item__edit-sizes-btn"]
+secondaryAddToCart,//*[@class="u-btn u-btn--primary u-btn--has-wide-padding u-btn--has-check-icon c-favourites-list-item__add-to-bag-btn c-favourites-list-item__add-to-bag-btn--is-editing"]
+size,//*[@id="FavouritesProductSizeSelectorOpts"]/li
+remove,//*[@class="u-btn u-btn c-favourites-list-item__remove-button o-list-item__edit-btn"]
+emptyFav,//*[@class="c-favourites-empty__title--part1"]
+productThumbnail,//*[@class= "c-favourites-list-item__thumbnail"]
+popupCloseButton,//*[@class='c-icon c-modal__icon-close']

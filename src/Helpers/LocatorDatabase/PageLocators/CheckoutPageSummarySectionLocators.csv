@@ -1,0 +1,30 @@
+ElementName,Common,Aldo,CIS,Globo
+headerTitle,//*[@data-qa-id="cart-header-title"],,,
+cartId,//*[@data-qa-id="cart-id"],,,
+productName,//*[@data-qa-id="product-name"],,,
+productThumbnail,//*[@data-qa-id="product-thumbnail"],,,
+productOriginalPrice,//*[@data-qa-id="product-original-price"],,,
+productSalePrice,//*[@data-qa-id="product-sale-price"],,,
+productFinalPrice,//*[@data-qa-id="product-final-price"]
+productColour,//*[@data-qa-id="product-style"],,,
+productSize,//*[@data-qa-id="product-size"],,,
+productQuantity,//*[@data-qa-id="product-quantity"],,,
+cartSubTotal,"//div[contains(@class,'o-container@under-lg')]/div[2]//td[@data-qa-id='cart-summary-subtotal-value']",,,
+cartTotal,"//div[contains(@class,'o-container@under-lg')]/div[2]//*[@data-qa-id='cart-summary-total-value']",,,
+enterPromoButton,"//div[contains(@class,'o-container@under-lg')]/div[2]//button[contains(@class,'c-cart-summary-promotion-add__add-btn')]",,,
+enterPromoField,"//div[contains(@class,'o-container@under-lg')]/div[2]//input[@id='promoCode']",,,
+applyButton,"//div[contains(@class,'o-container@under-lg')]/div[2]//button[contains(@class,'c-cart-summary-form__btn')]",,,
+cancelButton,.c-cart-summary .c-cart-summary-form .u-link--basic-text,,,
+enterPostalCodeField,"//div[contains(@class,'o-container@under-lg')]/div[2]//input[@id='postalCode']",,,
+taxCode,//*[@data-qa-id="tax-code"],,,
+expandTaxesButton,c-icon c-checkout--tax-expand-icon
+taxAmount,"//div[contains(@class,'o-container@under-lg')]/div[2]//*[@class='c-checkout__tax-amount']",,,
+taxItemAmount,//*[@class="c-cart-summary-tax-item__amount"],,,
+estimateTaxesButton,"//div[contains(@class,'o-container@under-lg')]/div[2]//button[contains(@class,'c-cart-summary-taxes-calculate')]",,,
+aldoAccordionItem, ,//*[@class="c-accordion-item"],,
+aldoAccordionButton, ,//*[@class="c-accordion-item__button"]
+mobileViewDetailsButton,//*[@class="u-btn u-link u-link--basic-text u-link--underlined"]
+postalCodeDiv,"//div[contains(@class,'o-container@under-lg')]/div[2]//div[@data-qa-id='estimate-taxes-postal-code-component']"
+promoCodeOverlayDiv,"//div[contains(@class,'o-container@under-lg')]/div[2]//div[@data-qa-id='add-promotion-postal-code-component']"
+promoDiv,"//div[contains(@class,'o-container@under-lg')]/div[2]//td[@class='c-cart-summary-promotion-item__amount-discounted']",,,
+shipDiv,"//div[contains(@class,'o-container@under-lg')]/div[2]//td[@class='c-shipping-total']",,,

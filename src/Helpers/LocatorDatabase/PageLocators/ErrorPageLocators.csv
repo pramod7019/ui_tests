@@ -1,0 +1,7 @@
+ElementName,Common,Aldo,CIS,Globo
+errorModalTitle,//h1[@id='modal-title']
+errorMessage,//div[@class='c-error-modal']/*[@class='c-markdown c-error-modal__message u-large-body-2']
+errorCode,//div[@class='c-error-modal']/*[@class='c-error-modal__error-code u-small-text']
+chatButton,//*[@class='u-btn u-btn--secondary u-btn--regular c-modal__footer-button']
+continueButton,//*[@class='u-btn u-btn--tertiary u-btn--regular c-modal__footer-button']
+closeButton,//*[@class='c-icon c-modal__icon-close']

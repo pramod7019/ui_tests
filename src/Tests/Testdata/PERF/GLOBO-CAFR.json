@@ -1,0 +1,92 @@
+{
+	"Banner": "GLOBO-CAFR",
+	"ProductUrl": "",
+  "SearchKeyword": "talon",
+  "StyleCode": "11367501",
+  "PromoCode": "QAGLOBOCA",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email":"globo@canada.com",
+		"Method": "Standard",
+		"Firstname": "fn",
+		"Lastname": "ln",
+		"Street": "113",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "",
+		"Phonenumber": "5147895544",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2321"
+			}
+		],
+		"Paypal": {
+			"username": "aldo.ecepp.ca@gmail.com",
+			"password": "Aldo1Aldo"
+		},
+		"Visacheckout": {
+			"username": "ALDOCAEN@gmail.com",
+			"password": "Aldo1234$"
+		}
+	},
+  "Categories": ["Femmes", "Hommes"],
+  "PageTitle":
+  {
+    "HomePage": "Globo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Passer à la caisse",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Rechercher"
+  },
+  "Urls":{
+    "Appointments": "envoi",
+		"StoreLocator":"store-locator",
+		"GiftCards":"rewards",
+		"TrackOrder":"suivi-commande",
+		"ContactUs":"appointments",
+		"Returns": "retours",
+		"CustomerService":"service-clientele",
+		"AboutUs":"aldogroup",
+		"Opportunities":"career-opportunities",
+		"AldoGroup":"responsibility",
+    "KindAf":"cest-bon"
+	},
+	"Links":{
+	  "CustomerService":"Aper",
+		"Appointments": "et livraison",
+		"StoreLocator":"Liste des magasins",
+		"GiftCards":"GLOBO Privil",
+		"TrackOrder":"Suivi de commande",
+		"ContactUs":"Nous joindre",
+		"Returns": "Retours",
+		"AboutUs":"propos",
+		"Opportunities":"Carri",
+		"AldoGroup":"Responsabili",
+		"KindAf":"est bon"
+	}
+}

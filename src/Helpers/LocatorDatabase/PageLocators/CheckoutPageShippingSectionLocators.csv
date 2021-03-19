@@ -1,0 +1,45 @@
+ElementName,Common,Aldo,CIS,Globo,mobile
+shippingTitle,//*[@aria-labelledby='shippingStartStepButton']//*[@class='c-checkout__header-text-wrapper'],,,
+shippingRadio,//*[@class='c-checkout__shipping-radio']//input,,,
+shippingMethodTitle,//*[@data-qa-id='delivery-methods-option']//*[@class='c-checkout__shipping-radio--label'],,,
+shippingDuration,//*[@data-qa-id='delivery-methods-option']//*[@data-qa-id='subheader'],,,
+shippingPrice,//*[@data-qa-id='delivery-methods-option']//*[@class='c-checkout__shipping-price-label'],,,
+standardShippingPrice,"//*[contains(@id,'standard-net-validation')]",,,
+expressShippingPrice,"//*[contains(@id,'mc-express-net-validation')]",,,
+signInLink,//*[@class='u-link u-link--basic-text u-link--underlined c-checkout__sign-in-line__btn'],,,
+contactInformationTitle,//*[@data-qa-id='contact-information-heading'],,,
+email,email,,,
+firstName,firstName,,,
+lastName,lastName,,,
+streetAddress,addressLine1,,,
+appartmentSuite,addressLine2,,,
+city,city,,,
+province,state,,,
+postalCode,zipCode,,,
+phone,phoneNumber,,,
+phoneExtension,extension,,,
+emailValidationText,//*[@class='c-form-field-validation'][@id='email-validation'],,,
+firstnameValidationText,//*[@class='c-form-field-validation'][@id='firstName-validation'],,,
+lastNameValidationText,//*[@class='c-form-field-validation'][@id='lastName-validation'],,,
+streetAddressValidationText,//*[@class='c-form-field-validation'][@id='addressLine1-validation'],,,
+cityValidationText,//*[@class='c-form-field-validation'][@id='city-validation'],,,
+provinceValidationText,//*[@class='c-form-field-validation'][@id='state-validation'],,,
+postalCodeValidationText,//*[@class='c-form-field-validation'][@id='zipCode-validation'],,,
+phoneNumberValidationText,//*[@class='c-form-field-validation'][@id='phoneNumber-validation'],,,
+savedAddressRadio,//*[@name='savedAddressSelected'],,,
+savedAddressTypeTitle,//*[@class='c-my-account-editable-group-address__type'],,,
+savedAddressText,//*[@class='c-my-account-editable-group-address-done u-large-body-2'],,,
+savedAddressEditButton,//*[@class='c-radio-group c-checkout__saved-addresses']//*[@class='c-editable-group__mid-way-edit-btn'],,,
+cisNewsLetterCheckbox,newsletter,,,
+streetAddressSuggestion,//*[@data-qa-id='form-autocomplete-result-item-button']
+storeLocatorRadio,//*[@name='store-locator-options']
+storeAddress,//*[@id='findStore']
+storeAddressSuggestion,findStore-list
+continuePayment,//*[@data-qa-id='checkout-page-step-3']//*[@id='paymentStartStepButton'],//*[@data-qa-id='checkout-page-step-2']//*[@data-qa-id='continue-to-next-step-button']
+continuePaymentMobile,//*[@class="u-btn u-btn--primary u-btn--is-small c-editable-group__heading-button c-editable-group__heading-button--mobile"]
+addNewAddress,//*[@id="savedAddress-add-new"]
+signOutLink,//*[@class="c-checkout__header--sign-in o-box-12"]//*[@data-qa-id="logout-button"]
+addressPopUpButton,//*[@class="u-btn u-btn--secondary u-btn--regular c-modal__footer-button"]
+loginHeaderTitle,//*[@data-qa-id='login-header-title']
+shipToStoreMode,//input[@id="shippingMethod-toStore"],,,
+userEmail,//*[@data-qa-id="user-email"]

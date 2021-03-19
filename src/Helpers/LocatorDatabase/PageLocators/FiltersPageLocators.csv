@@ -1,0 +1,17 @@
+ElementName,Common,Aldo,CIS,Globo
+sizeFilterOptions,//*[@data-qa-filter-size="true"]
+colourFilterOptions,//*[@data-qa-filter-colourdescriptionfacet="true"]
+priceFilterOptions,//*[@name="price"]
+applyFilterButton,,//*[@class="u-btn u-btn--primary c-filters-overlay-controls__apply-btn"],//*[@class="u-btn u-btn--highlight c-filters-overlay-controls__apply-btn"]
+clearFiltersButton,,//*[@class="u-btn c-filters-overlay-controls__clear-btn"],//*[@class="u-btn u-btn--primary c-filters-overlay-controls__clear-btn"]
+categoryFilterOptions,//*[@name="category"]
+closeFilterOverlayButton,,//*[@class="u-btn u-btn--is-small c-filters-overlay__hide-btn"],//*[@class="u-btn c-filters-overlay__close"]
+cisSortFilterOptions,//*[@name="sort"]
+noOfFiltersAppliedText,"//span[contains(text(),'Filt')]"
+globoNoOfFiltersApplied,//*[@class="c-grid-controls-filters__filters-applied o-box-12@lg u-hide@under-lg-only"]//*[@data-qa-grid-control-applied-filter-button="true"]
+morePriceFiltersButton,//*[@data-qa-id="filter-group-price"]//*[@class="u-btn__content"]
+moreColoursButton,//*[@data-qa-id="filter-group-colourDescriptionFacet"]//*[@class="u-btn__content"]
+categoryFiltersGroup,//*[@data-qa-id="filter-group-category"],,,//*[@id="category-content"]
+sizeFiltersGroup,//*[@data-qa-id="filter-group-size"],,,//*[@id="size-content"]
+applyFilterButtonText,//*[@data-qa-filter-overlay-apply-filters-btn]//*[@class="u-btn__content"]
+hideButton,//*[@class="u-btn u-btn--is-small c-filters-overlay__hide-btn"]

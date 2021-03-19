@@ -1,0 +1,14 @@
+ElementName,Common,Aldo,CIS,Globo
+pageTitle,//*[@id='modal-title']
+userNameField,username
+passwordField,password
+registerButton,//*[@class="c-modal__header"]//*[@class="u-link u-link--underlined u-link--basic-text"]
+signInWithFacebookButton,"//span[contains(text(), 'sign in with Facebook')]"
+signInButton,//button[@class='u-btn u-btn--primary u-btn--regular']
+signInButtonDisabled,//*[@class="u-btn u-btn--primary u-btn--regular c-btn--is-disabled"]
+signInErrorText,"//div[contains(text(),'Your username and/or password is incorrect')]"
+forgotPasswordButton,"//span[contains(text(), 'Forgot your password?')]"
+showPasswordButton,//span[@class="c-form-field-text-password__toggle-content"]
+signInOverlayCloseButton,//*[@data-qa-id="overlay-close-button"]
+userNameErrorValidationText,//*[@data-qa-validation-message="true"][@id="username-validation"]
+passwordErrorValidationText,//*[@data-qa-validation-message="true"][@id="password-validation"]

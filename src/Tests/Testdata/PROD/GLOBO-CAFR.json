@@ -1,0 +1,65 @@
+{
+	"Banner": "GLOBO-CAFR",
+	"ProductUrl": "",
+  "SearchKeyword": "talon",
+  "StyleCode": "12878727",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email":"globo@canada.com",
+		"Method": "Standard",
+		"Firstname": "fn",
+		"Lastname": "ln",
+		"Street": "113",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "",
+		"Phonenumber": "5147895544",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2321"
+			}
+		],
+		"Paypal": {
+			"user": "",
+			"password": ""
+		},
+		"Visacheckout": {
+			"user": "",
+			"password": ""
+		}
+	},
+  "Categories": ["Femmes", "Hommes"],
+  "PageTitle":
+  {
+    "HomePage": "Globo Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Passer à la caisse",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Rechercher"
+  }
+}

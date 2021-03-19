@@ -1,0 +1,65 @@
+{
+	"Banner": "ALDO-USEN",
+	"ProductUrl": "",
+  "SearchKeyword": "heel",
+  "StyleCode": "12321241",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email": "aldo@us.com",
+		"Method": "Standard",
+		"Firstname": "JohnnyUS",
+		"Lastname": "Walker",
+		"Street": "224",
+		"Suite": "",
+		"City": "",
+		"Postalcode": "",
+		"Phonenumber": "87456898956",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "2322"
+			}
+		],
+		"Paypal": {
+			"user": "",
+			"password": ""
+		},
+		"Visacheckout": {
+			"user": "",
+			"password": ""
+		}
+	},
+  "Categories": ["Women", "Men"],
+    "PageTitle":
+  {
+    "HomePage": "Aldo",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Checkout",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Search"
+  }
+}

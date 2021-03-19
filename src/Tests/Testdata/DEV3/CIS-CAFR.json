@@ -1,0 +1,65 @@
+{
+	"Banner": "CIS-CAFR",
+	"ProductUrl": "",
+  "SearchKeyword": "talon",
+  "StyleCode": "11239966",
+  "Currency": "$",
+	"Login_User": {
+		"Email": "",
+		"Password": "",
+    "LogoutMessage": "Logged out"
+	},
+	"Shipping": {
+    "Email": "callitspring@us.com",
+		"Method": "Standard",
+		"Firstname": "fn",
+		"Lastname": "ln",
+		"Street": "2300",
+		"Suite": "",
+		"City": "568",
+		"Postalcode": "",
+		"Phonenumber": "8956234565",
+		"Extension": ""
+	},
+	"Payment": {
+		"Creditcard": [
+			{
+				"Cardtype": "Visa",
+				"Cardnumber": "4111111111111111",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Master",
+				"Cardnumber": "2222420000001113",
+				"Date": "10/22",
+				"Cvv": "232"
+			},
+			{
+				"Cardtype": "Amex",
+				"Cardnumber": "378282246310005",
+				"Date": "10/22",
+				"Cvv": "231"
+			}
+		],
+		"Paypal": {
+			"user": "",
+			"password": ""
+		},
+		"Visacheckout": {
+			"user": "",
+			"password": ""
+		}
+	},
+  "Categories": ["Femmes", "Hommes"],
+    "PageTitle":
+  {
+    "HomePage": "Call It Spring Canada",
+    "PLPPage": "Chaussures",
+    "PDPPage": "",
+    "CartPage": "Product Cart",
+    "CheckoutPage": "Passer à la caisse",
+    "ConfirmationPage": "Chaussures",
+    "SearchPage": "Rechercher"
+  }
+}

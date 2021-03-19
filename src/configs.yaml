@@ -1,0 +1,51 @@
+# General configuration
+  #Banner local and language
+  # "ALDO-CAEN", "ALDO-CAFR", "ALDO-USEN", "CIS-CAEN", "CIS-CAFR", "CIS-USEN", "GLOBO-CAEN", "GLOBO-CAFR", "ALDO-UKEN"
+  # "ALDO", "GLOBO", "CIS" can have one or all values. Use all for same tests to run on all banners
+
+Configs:
+
+  Chromedriver_version: "84.0.4147.30"
+
+  Banners: ["ALDO-USEN","CIS-USEN"]
+
+  #Aldo banners: Choose local and language for Aldo specific tests
+  Aldo_Banners: ["ALDO-CAEN"]
+
+  #CIS banners Choose local and language for CIS specific tests
+  CIS_Banners: ["CIS-CAEN"]
+
+  #Globo banners: Choose local and language for Globo specific tests
+  Globo_Banners: ["GLOBO-CAEN"]
+
+  #Aldo CIS banners: Choose local and language for Aldo  and CIS specific tests
+  Aldo_CIS_Banners: ["ALDO-CAEN", "CIS-CAEN"]
+
+  #Globo CIS banners: Choose local and language for Globo  and CIS specific tests
+  Globo_CIS_Banners: ["GLOBO-CAEN", "CIS-CAEN"]
+
+  #Aldo Globo banners: Choose local and language for Aldo  and Globo specific tests
+  Aldo_Globo_Banners: ["ALDO-CAEN", "GLOBO-CAEN"]
+
+  # environment UAT, dev3, Prod
+  Environemnt: PROD
+
+  #local ca/en, ca/fr, us/en_US
+  Local: ca/en
+
+  # chrome, ios
+  Browser:
+      browser: chrome
+      headless: false
+
+  # iOS simulator capabilities for mac os
+  IOSCapabilities:
+     version: "13.4"
+     browser: safari
+     iphone: "iPhone 8"
+     resetsim: false
+     headless: false
+
+
+  # Appium server url
+  Appiumserver: http://localhost:4723/wd/hub
