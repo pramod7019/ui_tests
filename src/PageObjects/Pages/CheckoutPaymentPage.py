@@ -134,12 +134,18 @@ class CheckoutPaymentPage:
         self.__payment_elements.get_after_pay_payment_button().click()
 
     def enter_after_pay_information(self, email, password):
+        time.sleep(60)
         Browser.switch_to_latest_active_window()
-        self.__payment_elements.get_after_pay_email_field().set_text(email)
+        self.__payment_elements.get_after_pay_email_field().click()
+        self.__payment_elements.get_after_pay_email_field().set_text1(email)
         self.__payment_elements.get_after_pay_continue_button().click()
-        self.__payment_elements.get_after_pay_password_field().set_text(password)
+        self.__payment_elements.get_after_pay_password_field().wait_to_appear(60)
+        self.__payment_elements.get_after_pay_password_field().click(60)
+        self.__payment_elements.get_after_pay_password_field().set_text1(password)
         self.__payment_elements.get_after_pay_confirm_button().click()
-        self.__payment_elements.get_after_pay_got_it_button().click()
-        self.__payment_elements.get_after_pay_agree_checkbox().click()
+        self.__payment_elements.get_after_pay_got_it_button().wait_to_appear(60)
+        self.__payment_elements.get_after_pay_got_it_button().click(60)
+        self.__payment_elements.get_after_pay_agree_checkbox().wait_to_appear(60)
+        self.__payment_elements.get_after_pay_agree_checkbox().js_click()
         self.__payment_elements.get_after_pay_confirm_button().click()
-
+        self.__payment_elements.get_after_pay_confirm_button().wait_to_disappear(60,True)

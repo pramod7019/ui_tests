@@ -128,6 +128,7 @@ class CheckoutShippingPage:
 
     def click_on_continue_payment_button(self):
          payment_button_web = self.__shipping_elements.get_continue_payment_button()
+         time.sleep(10)
          if not payment_button_web.is_clickable():
             self.click_continue_payment(self.__shipping_elements.get_continue_payment_mobile())
          else:

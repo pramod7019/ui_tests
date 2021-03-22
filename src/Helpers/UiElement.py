@@ -250,5 +250,15 @@ class UiElement:
         Browser.get_driver().execute_script("arguments[0].click();", self.get_element())
         return self
 
+    def set_text1(self, value, loose_focus=False):
+
+        self.get_element().clear()
+        self.get_element().send_keys(Keys.CONTROL + "a")
+        self.get_element().send_keys(Keys.DELETE)
+        self.get_element().send_keys(str(value))
+        if loose_focus:
+            self.press_key(Keys.TAB)
+        return self
+
 
 
