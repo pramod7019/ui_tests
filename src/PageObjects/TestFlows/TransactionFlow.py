@@ -80,12 +80,13 @@ class TransactionFlow:
         SignInPage().enter_password(password)
         SignInPage().click_on_sign_in_button()
 
-    def fill_shipping_for_sign_in_user(self, shipping_method, shipping_address):
+    def fill_shipping_for_sign_in_user(self, shipping_method, shipping_address, url):
         CheckoutShippingPage().wait_for_shipping_method_details()
         CheckoutShippingPage().select_shipping_method(shipping_method)
-        # CheckoutShippingPage().select_address_from_default_address(0)
-        # if CheckoutShippingPage().get_default_address_edit_button() < 1:
-        #   CheckoutShippingPage().fill_phone_number(shipping_address.phone)
+        if "globo" in url:
+            CheckoutShippingPage().select_address_from_default_address(0)
+            if CheckoutShippingPage().get_default_address_edit_button() < 1:
+                CheckoutShippingPage().fill_phone_number(shipping_address.phone)
 
     def go_to_plp_page_from_home_page_navigation(self, menu_category):
         HeaderPage().hover_on_header_nav_categories(menu_category)
@@ -164,6 +165,7 @@ class TransactionFlow:
 
     def go_to_plp_page_from_home_page_search_mobile(self, product_code):
         HeaderPage().click_search_button()
+        time.sleep(5)
         HeaderPage().enter_search_keyword_mobile(product_code)
         PLPPage().wait_for_plp_page()
 

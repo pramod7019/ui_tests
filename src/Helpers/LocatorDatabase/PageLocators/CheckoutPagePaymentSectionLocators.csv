@@ -9,7 +9,7 @@ creditCardNumber,//*[@name='credit-card-number']
 creditCardExpiry,creditCardExpiration
 creditCardCVC,creditCardCvc
 billingSameAsShipping,//*[@id='billingSameAsShipping'][@type="checkbox"]
-reviewOrder,//*[@data-qa-id='continue-to-next-step-button'][@id='reviewStartStepButton'],//*[@data-qa-id='checkout-page-step-3']//*[@data-qa-id='continue-to-next-step-button']
+reviewOrder,//*[@data-qa-id='continue-to-next-step-button' and @id='reviewStartStepButton'],//*[@data-qa-id='checkout-page-step-3']//*[@data-qa-id='continue-to-next-step-button'],//*[@data-qa-id='continue-to-next-step-button']
 reviewOrderMobile,//*[@class="u-btn u-btn--primary u-btn--is-small c-editable-group__heading-button c-editable-group__heading-button--mobile"]
 paymentTitle,//*[@data-qa-id="checkout-page-step-3"]//*[@data-qa-id="title"]
 paypaliframe,#paypal-button iframe

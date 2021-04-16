@@ -135,10 +135,10 @@ class CheckoutShippingPage:
             self.click_continue_payment(payment_button_web)
 
     def click_continue_payment(self, payment_button):
-        payment_button.click()
+        payment_button.js_click()
         if "Guest" in self.get_login_header_title().get_text():
           self.close_address_suggestion_popup()
-        payment_button.wait_to_disappear()
+        payment_button.wait_to_disappear(15, True)
 
     def __click_new_address_radio(self):
         new_address_radio = self.__shipping_elements.get_add_new_address_radio()

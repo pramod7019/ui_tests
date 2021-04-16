@@ -29,12 +29,13 @@ class CheckoutPaymentPage:
 
     def click_review_order(self):
         review_order = self.__payment_elements.get_review_order_button()
-        if not review_order.is_clickable():
+        if not review_order.exists():
             review_order_mobile = self.__payment_elements.get_review_order_mobile()
             review_order_mobile.click()
             review_order_mobile.wait_to_disappear()
         else:
-            review_order.click()
+            time.sleep(10)
+            review_order.js_click()
             review_order.wait_to_disappear()
 
     def select_paypal_payment(self):

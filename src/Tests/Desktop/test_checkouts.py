@@ -1,5 +1,6 @@
 import pytest
 
+from uitests.src.Helpers.Browser import Browser
 from uitests.src.Tests.Desktop.conftest import aldo_us
 
 
@@ -139,7 +140,7 @@ class TestCheckouts:
         assert site.page_title(data.cart_page_title)
         site.cart_page.click_on_start_checkout()
         assert site.page_title(data.checkout_page_title)
-        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping)
+        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping,Browser.get_current_url())
         site.shipping_page.click_on_continue_payment_button()
         site.payment_page.select_paypal_payment()
         site.transaction_flow.click_and_do_paypal_payment(data.paypal, "paypal")
@@ -199,7 +200,7 @@ class TestCheckouts:
         assert site.page_title(data.cart_page_title)
         site.cart_page.click_on_start_checkout()
         assert site.page_title(data.checkout_page_title)
-        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping)
+        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping,Browser.get_current_url())
         site.shipping_page.click_on_continue_payment_button()
         site.payment_page.select_paypal_payment()
         site.transaction_flow.click_and_do_paypal_payment(data.paypal_credit, "credit")
@@ -306,7 +307,7 @@ class TestCheckouts:
         assert site.page_title(data.cart_page_title)
         site.cart_page.click_on_start_checkout()
         assert site.page_title(data.checkout_page_title)
-        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping)
+        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping,Browser.get_current_url())
         site.shipping_page.click_on_continue_payment_button()
         site.payment_page.select_after_pay_payment()
         site.payment_page.enter_after_pay_information(data.user_email, "Aldo@1234")

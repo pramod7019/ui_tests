@@ -1,7 +1,8 @@
 import time
 import pytest
 
-from uitests.src.Tests.Desktop.conftest import aldo, aldo_globo, cis, skip_for_prod, globo_cis
+from uitests.src.Helpers.Browser import Browser
+from uitests.src.Tests.Desktop.conftest import aldo, aldo_globo, cis, skip_for_prod, globo_cis, globo
 
 
 @pytest.mark.mobile
@@ -172,7 +173,7 @@ class TestSmoke:
         site.transaction_flow.add_product_to_cart_from_home_search(data.style_code, mobile=True)
         assert site.page_title(data.cart_page_title)
         site.cart_page.click_on_start_checkout()
-        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping)
+        site.transaction_flow.fill_shipping_for_sign_in_user(shipping_method, data.shipping,Browser.get_current_url())
         site.shipping_page.click_on_continue_payment_button()
         site.payment_page.select_credit_card_payment()
         site.transaction_flow.credit_card_payment(data.creditcard[0])
