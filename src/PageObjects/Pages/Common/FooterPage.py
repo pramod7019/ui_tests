@@ -72,8 +72,6 @@ class FooterPage():
     def verify_footers_globo(self, link_text, urls):
         self.verify_footers_generalise(self.__footer_page_elements.get_help_center(), link_text.customer_service,
                                        urls.customer_service)
-        self.verify_footers_generalise(self.__footer_page_elements.get_shipping(), link_text.appointments,
-                                       urls.appointments)
         self.verify_footers_generalise(self.__footer_page_elements.get_store_locators(), link_text.store_locator,
                                        urls.store_locator)
         self.verify_footers_generalise(self.__footer_page_elements.get_track_order(), link_text.track_order,
@@ -90,6 +88,8 @@ class FooterPage():
                                                   urls.about_us)
         self.verify_footers_generalise_new_window(self.__footer_page_elements.get_careers(), link_text.opportunities,
                                                   urls.opportunities)
+        self.verify_footers_generalise(self.__footer_page_elements.get_shipping(), link_text.appointments,
+                                       urls.appointments)
 
     def click_all_countries_link(self):
         self.__footer_page_elements.get_all_countries_link().get_visible_element()[0].click()
