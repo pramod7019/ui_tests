@@ -5,7 +5,7 @@
   "StyleCode": "12648320",
   "PromoCode": "QAJOAN",
   "Currency": "$",
-	"orderurl":"order-tracking",
+	"orderurl":"order-history",
 	"Login_User": {
 		"Email": "qaautomationtest@gmail.com",
 		"Password": "Aldo1234",

@@ -51,4 +51,7 @@ class OrderHistoryPage:
     def order_detail_find_url(self, url):
         assert Browser.get_current_url().find(url)
 
+    def click_view_orders(self):
+        self.__order_history_elements.get_view_orders().click(wait_for_clickable=False)
+
 
