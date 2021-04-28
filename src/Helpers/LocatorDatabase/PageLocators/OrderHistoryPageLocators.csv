@@ -10,4 +10,4 @@ orderHistoryEmpty,//*[@class="c-my-account-order-history-empty"]
 myHistory,"//*[@role='navigation']//a[contains(@href,'history')]"
 orderNumber,//*[@class="c-product-list-item__order-id"]
 orderDetails,//*[@class="c-order-history-item-header"]
-
+orders,.c-product-list-item__content-wrapper

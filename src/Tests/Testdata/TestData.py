@@ -59,6 +59,7 @@ class TestData:
     self.uat_login = LoginData()
     self.urls = Urls(data_obj.Urls)
     self.links = LinkText(data_obj.Links)
+    self.orderurl = self._data.orderurl
 
 
 class Shipping:

@@ -5,6 +5,7 @@
   "StyleCode": "13074696",
   "PromoCode": "QACISCA",
   "Currency": "$",
+	"orderurl":"order-history",
 	"Login_User": {
 		"Email": "qaautomationtest@gmail.com",
 		"Password": "Aldo1234",

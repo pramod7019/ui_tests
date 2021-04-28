@@ -39,3 +39,7 @@ class OrderHistoryPageElements(Locators):
 
     def get_order_details(self):
         return self.get_page_element(By.XPATH, "orderDetails")
+
+    def get_orders(self):
+        return self.get_page_element(By.CSS_SELECTOR, "orders")
+

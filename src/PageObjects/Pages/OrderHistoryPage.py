@@ -42,4 +42,13 @@ class OrderHistoryPage:
     def verify_order_detail(self):
         return self.__order_history_elements.get_order_details().displayed()
 
+    def get_order_number_element(self):
+        return self.__order_history_elements.get_order_number_input_label()
+
+    def get_orderscount(self):
+        return len(self.__order_history_elements.get_orders().get_all_elements())
+
+    def order_detail_find_url(self, url):
+        assert Browser.get_current_url().find(url)
+
 
