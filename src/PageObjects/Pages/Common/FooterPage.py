@@ -1,4 +1,5 @@
 from uitests.src.Helpers.Browser import Browser
+from uitests.src.PageObjects.Pages.CheckoutShippingPage import CheckoutShippingPage
 from ....PageObjects.PageElements.FooterPageElements import FooterPageElements
 
 
@@ -101,3 +102,14 @@ class FooterPage():
 
     def verify_if_north_america_tab_is_displayed(self):
         return self.__footer_page_elements.get_north_america_link().displayed()
+
+    def verify_store_locators(self,data):
+        pop_up = self.__footer_page_elements.get_pop_up_close_button()
+        if pop_up.exists():
+            pop_up.click()
+        self.__footer_page_elements.get_footer_link(data.links.store_locator).wait_to_appear()
+        self.__footer_page_elements.get_footer_link(data.links.store_locator).click()
+        CheckoutShippingPage().fill_store_address_select_suggestion(data.shipping.postal_code)
+        self.__footer_page_elements.get_stores().get_child_element(0).is_displayed()
+        assert len(self.__footer_page_elements.get_stores().get_all_elements())>=1
+        assert self.__footer_page_elements.get_map().displayed()

@@ -34,3 +34,7 @@ class TestFooters:
         url_before_change = site.current_url()
         site.footerpage.change_country_link()
         assert url_before_change != site.current_url()
+
+    def test_footers_aldo_EE20_1758(self, site, data):
+        site.header_page.wait_for_header_page()
+        site.footerpage.verify_store_locators(data)

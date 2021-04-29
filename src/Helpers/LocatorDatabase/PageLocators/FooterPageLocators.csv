@@ -17,4 +17,6 @@ popUp,//*[@data-qa-id="overlay-close-button"]
 allCountriesLink,//a[@class="c-region-selector__subtitle"]
 northAmericaLink,"//div[@class='c-accordion-item__button']//span[contains(text(),'North America')]"
 usaLink,//a[@href='/us/en_US']
-
+findstores,.c-store-locator-form__btn-submit
+stores,[id*=scroll-target]
+map,.c-store-locator-results__map

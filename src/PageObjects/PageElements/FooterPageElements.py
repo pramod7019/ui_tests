@@ -61,3 +61,12 @@ class FooterPageElements(Locators):
     def get_usa_link(self):
         return self.get_page_element(By.XPATH, "usaLink")
 
+    def get_find_stores(self):
+        return self.get_page_element(By.CSS_SELECTOR, "findstores")
+
+    def get_stores(self):
+        return self.get_page_element(By.CSS_SELECTOR, "stores")
+
+    def get_map(self):
+        return self.get_page_element(By.CSS_SELECTOR, "map")
+
