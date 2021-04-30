@@ -32,3 +32,8 @@ editPasswordButton,//*[@class='c-editable-group__mid-way-edit-btn']//button[@ari
 oldPassword,//*[@id='oldPassword'],,,
 newPassword,//*[@id='newPassword'],,,
 confirmPassword,//*[@id='confirmNewPassword'],,,
+editbtn,"//*[contains(@class,'c-editable-group__mid-way-edit-btn')]//button[@data-qa-id='edit-button']"
+savebtn,.c-my-account-editable-group__cta-btn
+fnln,.c-loyalty-my-info-col-1>p
+sizep,.c-loyalty-my-info-col-2>p
+fnlncis,.u-react-measure-offset

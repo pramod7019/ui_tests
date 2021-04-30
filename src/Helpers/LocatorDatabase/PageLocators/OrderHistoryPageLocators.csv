@@ -12,3 +12,4 @@ orderNumber,//*[@class="c-product-list-item__order-id"]
 orderDetails,//*[@class="c-order-history-item-header"]
 orders,.c-product-list-item__content-wrapper
 vieworders,.c-my-account-section-contents-btn
+myinfo,"//*[@role='navigation']//a[contains(@href,'profile')]"

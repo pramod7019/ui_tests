@@ -4,7 +4,7 @@ import time
 from ..Helpers.Browser import Browser
 from .TestFlows import TransactionFlow
 from .Pages import PDPPage, PLPPage, CartPage, SignInPage, CheckoutShippingPage, OrderHistoryPage, CheckoutPaymentPage, ConfirmationPage, \
-  CheckoutReviewPage, MyAccountPage, SignUpPage, FilterPage, CheckoutSummaryPage, FavPage, ErrorPage, MyAccountPaymentPage
+  CheckoutReviewPage, MyAccountPage, SignUpPage, FilterPage, CheckoutSummaryPage, FavPage, ErrorPage, MyAccountPaymentPage, MyAccountInfoSectionPage
 from .Pages.Common import HeaderPage, FooterPage
 from ..Tests.CommonConfig import CommonConfig
 
@@ -124,3 +124,7 @@ class Page(CommonConfig):
 
     def switch_to_latest_active_window(self):
         return Browser.switch_to_latest_active_window()
+
+    @property
+    def my_account_edit_page(self):
+        return MyAccountInfoSectionPage.MyAccountInfoSectionPage()

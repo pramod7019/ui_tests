@@ -105,3 +105,18 @@ class MyAccountPageInfoSectionElements(Locators):
 
     def get_confirm_password(self):
         return self.get_page_element(By.XPATH, "confirmPassword")
+
+    def get_edit_btn(self):
+        return self.get_page_element(By.XPATH, "editbtn")
+
+    def get_save_btn(self):
+        return self.get_page_element(By.CSS_SELECTOR, "savebtn")
+
+    def get_fn_ln(self):
+        return self.get_page_element(By.CSS_SELECTOR, "fnln")
+
+    def get_fn_ln_cis(self):
+        return self.get_page_element(By.CSS_SELECTOR, "fnlncis")
+
+    def get_size_p(self):
+        return self.get_page_element(By.CSS_SELECTOR, "sizep")

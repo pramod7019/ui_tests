@@ -45,3 +45,19 @@ class TestOrderHistory:
         site.order_history_page.click_view_orders()
         site.order_history_page.get_order_number_element().wait_to_appear()
         assert data.orderurl in site.current_url()
+
+    @globo_cis
+    def test_user_order_details_aldo20(self, site, data):
+        site.execute_command(data.feature_toggle.deactivate_force_recaptcha)
+        site.transaction_flow.user_login(data.user_email, data.user_password)
+        site.header_page.click_user_account()
+        site.order_history_page.click_my_info()
+        site.my_account_edit_page.edit_account_cis_globo(data)
+
+    @aldo
+    def test_user_order_details_aldo201(self, site, data):
+        site.execute_command(data.feature_toggle.deactivate_force_recaptcha)
+        site.transaction_flow.user_login(data.user_email, data.user_password)
+        site.header_page.click_user_account()
+        site.order_history_page.click_my_info()
+        site.my_account_edit_page.edit_account()

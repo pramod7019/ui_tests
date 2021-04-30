@@ -46,3 +46,6 @@ class OrderHistoryPageElements(Locators):
     def get_view_orders(self):
         return self.get_page_element(By.CSS_SELECTOR, "vieworders")
 
+    def get_my_info(self):
+        return self.get_page_element(By.XPATH, "myinfo")
+

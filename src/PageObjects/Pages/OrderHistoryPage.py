@@ -54,4 +54,7 @@ class OrderHistoryPage:
     def click_view_orders(self):
         self.__order_history_elements.get_view_orders().click(wait_for_clickable=False)
 
+    def click_my_info(self):
+        self.__order_history_elements.get_my_info().click(wait_for_clickable=False)
+
 

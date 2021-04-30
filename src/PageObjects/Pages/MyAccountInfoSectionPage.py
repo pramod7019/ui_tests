@@ -1,5 +1,7 @@
-from uitests.src.PageObjects.PageElements.MyAccountPageInfoSectionElements import MyAccountPageInfoSectionElements
+import time
 
+from uitests.src.PageObjects.PageElements.MyAccountPageInfoSectionElements import MyAccountPageInfoSectionElements
+import random, string
 
 class MyAccountInfoSectionPage:
 
@@ -82,3 +84,34 @@ class MyAccountInfoSectionPage:
 
     def click_on_show_password(self):
         self.__info_section_elements.get_show_password().click()
+
+    def edit_account(self):
+        randomstring = ''.join(random.choice(string.ascii_lowercase) for i in range(10))
+        fname = 'Fname'+randomstring
+        lname = 'Lname'+randomstring
+        self.__info_section_elements.get_edit_btn().get_visible_element()[0].click()
+        self.__info_section_elements.get_first_name().wait_to_appear()
+        self.__info_section_elements.get_first_name().set_text1(fname)
+        self.__info_section_elements.get_last_name().set_text1(lname)
+        alloptions = MyAccountPageInfoSectionElements().get_size().get_all_options()
+        alloptions.remove(self.__info_section_elements.get_size().get_selected_option())
+        self.edit_size(alloptions[-1])
+        self.__info_section_elements.get_save_btn().wait_to_appear()
+        self.__info_section_elements.get_save_btn().click()
+        time.sleep(5)#it was needed in my machine
+        assert (alloptions[-1] in self.__info_section_elements.get_size_p().get_text())
+        assert ((fname+' '+lname) == self.__info_section_elements.get_fn_ln().get_text())
+
+    def edit_account_cis_globo(self,data):
+        randomstring = ''.join(random.choice(string.ascii_lowercase) for i in range(10))
+        fname = 'Fname'+randomstring
+        lname = 'Lname'+randomstring
+        self.__info_section_elements.get_edit_btn().get_visible_element()[0].click()
+        self.__info_section_elements.get_first_name().wait_to_appear()
+        self.__info_section_elements.get_first_name().set_text1(fname)
+        self.__info_section_elements.get_last_name().set_text1(lname)
+        self.__info_section_elements.get_current_password().set_text(data.user_password)
+        self.__info_section_elements.get_save_btn().wait_to_appear()
+        self.__info_section_elements.get_save_btn().click()
+        time.sleep(5)#it was needed in my machine
+        assert ((fname+' '+lname) in self.__info_section_elements.get_fn_ln_cis().get_text())

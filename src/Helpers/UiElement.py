@@ -260,5 +260,11 @@ class UiElement:
             self.press_key(Keys.TAB)
         return self
 
+    def get_selected_option(self):
+        return Select(self.get_element()).first_selected_option.text
+
+    def get_all_options(self):
+        return [element.get_attribute("value") for element in Select(self.get_element()).options]
+
 
 
